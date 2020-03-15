@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EFEK SLIDE</title>
+    <script src="JS/jquery-3.4.1.min.js"></script>
+    <script>
+    $("document").ready(function(){
+    $(".flip").click(function(){
+    $(".pesan").slideToggle("slow");
+    });
+    });
+
+    </script>
+    <style type="text/css">
+    div.pesan{
+        height: 120px;
+        display: none;
+    }
+    div.pesan, p.flip{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        background: blue;
+        border: 1px solid black;
+        margin-bottom: 50px;
+        border-radius: 50px;
+
+    }
+    </style>
+</head>
+<body>
+    <div class="pesan">
+        <p> sukses bukanlah kunci kebahagiaan 
+            kebahagiaan kunci kesuksesan</p>
+            jika senantiasa melakukan sesuatu dengan penuh cinta maka anda akan sukses
+
+    </div>
+    <center><button class="flip">Tampilkan/Sembunyikan Pesan</button></center>
+</body>
+</html>

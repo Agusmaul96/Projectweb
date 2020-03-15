@@ -1,0 +1,39 @@
+/* untuk Form */
+.judul {
+    color: blueviolet; background-color: darkgrey;
+}
+#font {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50pt;
+}
+label {
+    background-color: darkgreen;
+    text-align: center;
+}
+button {
+    background-color: darkred;
+    text-align: center;
+}
+/* untuk file baru */
+.kotak{
+    background-color: darkred;
+    width: 200px; height: 200px; border-radius: 30px;
+    float: left; margin-right: 30px; margin-bottom: 30px; margin-left: 50px;
+}
+.kotak2{
+    background-color: rgb(57, 152, 184);
+    width: 200px; height: 200px; border-radius: 30px;
+    float: left; 
+}
+.kotak3{
+    background-color: rgb(5, 15, 19);
+    width: 200px; height: 200px; border-radius: 30px;
+    float: left; clear: both; margin-right: 30px; margin-bottom: 30px; margin-left: 50px;
+}
+.kotak4{
+    background-color: rgb(182, 8, 159);
+    width: 200px; height: 200px; border-radius: 30px;
+    float: left; 
+}
+
+

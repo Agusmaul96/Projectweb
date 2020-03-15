@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 4</title>
+    <script src="JS/jquery-3.4.1.min.js"></script>
+    <script>
+        $("document").ready(function(){
+            $("#tema").css("width","500px").addClass("baru1");
+            $("#judul").addClass("merahkuning");
+            $(".subl").addClass("kuninghitam");
+            $("#judul").addClass("hitam");
+            $("ol").css("width","200px");
+        }
+        );
+    </script>
+    <style type="text/css">
+.merahkuning{
+    color: blue;
+    font-weight: bold;
+    background-color: springgreen;
+    padding: 4px;}
+.kuninghitam{
+    color: rgb(5, 8, 12);
+    background-color: rgb(235, 25, 25);
+}
+.hitam{
+    margin-left: 50px;
+}
+.baru1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font: outline;
+    font-size: 30pt;
+    font-weight: bold;
+    background-color: blue;
+}
+
+    </style>
+</head>
+<body>
+    <h1 id="tema">JUDUL BUKU KULIAH PEMROGRAMAN WEB</h1>
+    <ol id="judul" type="A">
+        <li class="subl">Pemrograman Web</li>
+        <li>Database MysQl</li>
+        <li class="subl"> Mempercantik Web Dengan Jquery</li>
+    </Ol>
+</body>
+</html>

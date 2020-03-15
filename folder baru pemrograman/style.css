@@ -1,0 +1,109 @@
+.kotak1 {
+    background-color: rgb(34, 193, 233);
+    width: 980px; 
+    height: 310px; 
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-right: 10px;
+}
+.kotak2 {
+    background-color: orangered; 
+    width: 500px; height: 150px; float: left; margin-bottom: 10px;
+    margin-top: 50px;
+}
+.kotak3 {
+    background-color: rgb(53, 64, 218);
+    width: 500px; height: 150px;
+    float: left;
+}
+.kotak4 {
+    background-image: url(2x/baseline_3d_rotation_black_18dp.png);
+    width: 70px; 
+        height: 70px; 
+    clear: both; 
+    float: bottom; 
+    margin-left: 30px; 
+    float: left; 
+    margin-bottom: 30px;
+}
+ .kotak5 {
+        background-image: url(2x/baseline_accessibility_black_18dp.png);
+        width: 70px; 
+        height: 70px; 
+        margin-left: 80px; 
+        float: left; 
+        margin-bottom: 30px;
+ }
+.kotak6 {
+        background-image: url(2x/baseline_accessibility_new_black_18dp.png);
+        width: 70px; 
+        height: 70px; 
+        margin-left: 80px; 
+        float: left; 
+        margin-bottom: 30px;
+}
+.kotak7 {
+        background-image: url(2x/baseline_accessible_black_18dp.png);
+        width: 70px; 
+        height: 70px;  
+        margin-left: 80px; 
+        float: left; 
+        margin-bottom: 30px;
+    }
+.kotak8 {
+        background-image: url(2x/baseline_accessible_forward_black_18dp.png);
+        width: 70px; 
+        height: 70px; 
+        margin-left: 80px; 
+        float: left; 
+        margin-bottom: 30px;
+    }
+.kotak9 {
+        background-image: url(2x/baseline_account_balance_black_18dp.png);
+        width: 70px; 
+        height: 70px;  
+        margin-left: 80px; 
+        float: left; 
+        margin-bottom: 30px;
+    }
+.kotak10 {
+        background-image: url(2x/baseline_account_balance_wallet_black_18dp.png);
+        width: 70px; 
+        height: 70px;  
+        margin-left: 80px; 
+        float: left; 
+        margin-bottom: 30px;
+    }
+.kotak11 {
+        background-image: url(2x/baseline_account_box_black_18dp.png);
+        width: 70px; 
+        height: 70px;  
+        margin-left: 80px; 
+        float: left; m
+        argin-bottom: 30px;    
+}
+.kotak12 {
+    background-image: url(2x/baseline_account_circle_black_18dp.png);
+    width: 70px; 
+        height: 70px;  
+        margin-left: 80px; 
+        float: left; 
+        margin-bottom: 30px; }
+ .kotak13 {
+     background-image: url(2x/baseline_account_circle_black_18dp.png);
+    width: 70px; 
+     height: 70px;  
+     margin-left: 80px; 
+     float: left; 
+     margin-bottom: 30px; }
+.kotak14 {
+        background-color: saddlebrown;
+        width: 1500px; 
+        height: 150px; 
+        margin-left: 10px; 
+        clear: both; 
+        background-repeat: no-repeat;
+    }
+ 

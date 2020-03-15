@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="JS/jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $(".button").click(function(){
+        $("#kotak").fadeIn("slow");    
+        });
+        $(".hilang").click(function(){
+        $("#kotak").fadeOut("slow");    
+        });
+        $(".hilangperlahan").click(function(){
+        $("#kotak").fadeToggle("slow","linear");    
+        });
+        });
+    </script>
+    <style>
+    #kotak {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        margin-bottom: 50px;
+    }
+    </style>
+</head>
+<body>
+    <div id="kotak"></div>
+    <button class="button">Muncul</button>
+    <button class="hilang">Hilang</button>
+    <button class="hilangperlahan">Hilang Perlahan</button>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="JS/jquery-3.4.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+        $("button").dblclick(function(){
+        $("div").css("width","200px").addClass("judul").addClass("test").addClass("baru");    
+        });
+        });
+    </script>
+    <style>
+        .baru {
+            margin-left: 50px;
+            margin-top: 50px;
+        }
+        .judul{
+            color: rgb(10, 80, 185);
+            font-size: 30pt;
+            font-style: initial; 
+        }
+        .test{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-display: unset;
+            background-color: rgb(128, 0, 0); 
+        }
+    </style>
+</head>
+<body>
+    <button>Mantap Djiwa</button>
+    <button>Keren</button>
+    <button>Bebas</button>
+
+
+    <div><h1>Hebat</h1></div>
+</body>
+</html>
